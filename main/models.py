@@ -1,3 +1,7 @@
 from django.db import models
 
-# Create your models here.
+
+class LogoModel(models.Model):
+    logo = models.ImageField(upload_to='logo/')
+
+
